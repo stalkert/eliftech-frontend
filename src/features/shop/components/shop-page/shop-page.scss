@@ -1,0 +1,21 @@
+.shop-page {
+  width: 100%;
+
+  &__content {
+    width: 100%;
+  }
+}
+
+.shop-page__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.shop-page__shop-list {
+  width: 200px;
+}
+
+.no-shop-selected {
+  text-align: center;
+  font-size: 1.2em;
+}

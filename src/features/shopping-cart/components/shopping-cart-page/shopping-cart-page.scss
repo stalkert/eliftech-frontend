@@ -1,0 +1,36 @@
+.shopping-cart-page {
+  display: flex;
+  flex-direction: column;
+
+  .main-info {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    .order-form,
+    .order-details {
+      flex-basis: 48%;
+
+      .form-card,
+      .good-cart-list {
+        height: 75vh;
+      }
+
+      .good-cart-list {
+        overflow-y: scroll;
+      }
+    }
+  }
+
+  .total-info {
+    display: flex;
+    padding: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.1em;
+
+    div {
+      margin-right: 24px;
+    }
+  }
+}

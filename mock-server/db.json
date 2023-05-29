@@ -1,0 +1,38 @@
+{
+  "shops": [
+    {
+      "id": 1,
+      "name": "McDonalds"
+    },
+    {
+      "id": 2,
+      "name": "KFC"
+    }
+  ],
+  "goods": [
+    {
+      "id": "",
+      "name": "Product ",
+      "imageUrl": "product1.jpg",
+      "price": 10
+    },
+    {
+      "id": "",
+      "name": "Product ",
+      "imageUrl": "product2.jpg",
+      "price": 15
+    },
+    {
+      "id": "",
+      "name": "Product ",
+      "imageUrl": "product3.jpg",
+      "price": 20
+    },
+    {
+      "id": "",
+      "name": "Product ",
+      "imageUrl": "product4.jpg",
+      "price": 25
+    }
+  ]
+}
